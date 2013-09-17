@@ -71,7 +71,3 @@
     }
 
 })(jQuery);
-
-$(function () {
-    $('#list').splitList(5, "li");
-});
