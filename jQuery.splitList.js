@@ -39,7 +39,8 @@
             } else {
                 var last = $this;
                 while (list = lists.shift()) {
-                    last.insertAfter(list.clone());
+                    list = list.clone();
+                    list.insertAfter(last);
                     last = list
                 }
             }
