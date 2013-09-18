@@ -51,7 +51,7 @@
     $.fn.splitList = function (count, child_selector, add_wrapper, wrapper_tag, wrapper_class, resolve_id) {
         var options = {};
         if (Object(count) === count) {
-            $.extend(options, _splitList_defaults, count);
+            $.extend(options, _splitList_deafults, count);
         } else if (!(+count)) {
             return this
         } else {
